@@ -1,4 +1,4 @@
-# <3 ///// ENGENHARIA DE COMPUTAÇÃO - ALGORITMOS II - 2025 ///// <3
+# /// ENGENHARIA DE COMPUTAÇÃO - ALGORITMOS II - 2025 ///
 
 ## SOBRE O REPOSITÓRIO:
 - Projeto desenvolvido ao longo de todo o 2° semestre do curso de Engenharia de Computação do IFMS Campus Três Lagoas, com o auxílio dos professores Rogério Antoniassi e Alex Araujo.
