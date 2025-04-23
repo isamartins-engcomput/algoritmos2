@@ -1,42 +1,77 @@
 # ENGENHARIA DE COMPUTAÇÃO - ALGORITMOS II - 2025
 
-## SOBRE O REPOSITÓRIO:
-- Projeto desenvolvido ao longo de todo o 2° semestre do curso de Engenharia de Computação do IFMS Campus Três Lagoas, com o auxílio dos professores Rogério Antoniassi e Alex Araujo.
+![Capa do Projeto](https://placehold.co/1000x200?text=Algoritmos+II+em+C&font=roboto)
 
-## FUNCIONALIDADE:
-- Aqui você encontra uma coleção de algoritmos e exercícios de programação desenvolvidos na linguagem C, com o objetivo de estudo, aprendizagem e aprimoramento das técnicas e lógica de programação.
+## SOBRE O REPOSITÓRIO
 
-## COMO COMPILAR PELO TERMINAL?
+Projeto desenvolvido ao longo de todo o **2º semestre** do curso de **Engenharia de Computação do IFMS - Campus Três Lagoas**, com o auxílio dos professores **Rogério Antoniassi** e **Alex Araujo**.
 
-### Requisitos:
-- GCC (para compilar os arquivos C);
-- Sistema operacional de sua escolha (para executar no terminal);
-- Git (opcional, para poder clonar o repositório).
+---
 
-### Passo a passo:
+## FUNCIONALIDADE
 
-1. Clone o repositório:
-```git clone https://github.com/seu_usuario/algoritmos2.git```
-```cd algoritmos2```
+Neste repositório, você encontra uma coleção de **algoritmos** e **exercícios de programação** desenvolvidos em **linguagem C**, com foco em:
 
-2. Compile o código com o GCC:
-```gcc nome_do_arquivo.c -o nome_do_programa```
+- Estudo e compreensão de algoritmos
+- Aprimoramento da lógica de programação
+- Desenvolvimento prático durante as aulas
 
-****RECOMENDAÇÃO: Para compilar pelo GCC a pasta "lista-funcoes" e os códigos dentro dela, utilize o seguinte comando: ```gcc nome_do_arquivo.c -o nome_do_programa -lm``` (para que o compilador consiga linkar o meu programa à biblioteca matemática utilizada nele).**
+---
 
-3. Execute o programa:
-```./nome_do_programa```
+## COMO COMPILAR PELO TERMINAL
 
-## OBSERVAÇÕES:
-- Plataformas utilizadas para o desenvolvimento dos códigos: Todos os códigos no presente repositório foram desenvolvidos nas plataformas Editor de Texto do Ubuntu e Visual Studio Code;
-- Compilação: Realizadas pelo GCC e também testadas no compilador online GDB debugger (https://www.onlinegdb.com);
-- Sistema operacional da autora: Linux Ubuntu 24.04.02 LTS;
-- Versão do GCC: GCC 13.3.0.
+### Requisitos
 
-## AUTORIA:
-- Isadora de Souza Martins, estudante de Engenharia de Computação;
-- GitHub: isamartins-engcomput;
-- E-mail pessoal: isadoramartins1906@gmail.com;
-- E-mail institucional: isadora.martins2@estudante.ifms.edu.br.
+- **GCC** (para compilar os arquivos C)
+- **Sistema operacional com terminal** (Linux, Windows com WSL, etc)
+- **Git** (opcional, para clonar o repositório)
 
-É isso, espero que gostem do meu trabalho produzido até aqui! :)
+### Passo a passo
+
+```bash
+# Clone o repositório
+git clone https://github.com/seu_usuario/algoritmos2.git
+cd algoritmos2
+```
+
+```bash
+# Compile o arquivo desejado com o GCC
+gcc nome_do_arquivo.c -o nome_do_programa
+```
+
+```bash
+# Execute o programa
+./nome_do_programa
+```
+
+#### Compilando códigos que usam a biblioteca matemática `<math.h>`
+
+```bash
+gcc nome_do_arquivo.c -o nome_do_programa -lm
+```
+
+> Isso é necessário para os códigos da pasta `lista-funcoes`.
+
+---
+
+## OBSERVAÇÕES
+
+- **Ambiente de desenvolvimento**: Ubuntu (Editor de Texto) e Visual Studio Code  
+- **Compiladores utilizados**: GCC (local) e [OnlineGDB](https://www.onlinegdb.com)  
+- **Sistema operacional**: Linux Ubuntu 24.04.2 LTS  
+- **Versão do GCC**: 13.3.0
+
+---
+
+## AUTORIA
+
+**Isadora de Souza Martins**  
+Estudante de Engenharia de Computação  
+
+- GitHub: [isamartins-engcomput](https://github.com/isamartins-engcomput)  
+- E-mail pessoal: isadoramartins1906@gmail.com  
+- E-mail institucional: isadora.martins2@estudante.ifms.edu.br  
+
+---
+
+> É isso, espero que gostem do meu trabalho produzido até aqui!
