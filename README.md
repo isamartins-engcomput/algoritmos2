@@ -12,9 +12,9 @@ Projeto desenvolvido ao longo de todo o **2º semestre** do curso de **Engenhari
 
 Neste repositório, você encontra uma coleção de **algoritmos** e **exercícios de programação** desenvolvidos na **linguagem C**, com foco em:
 
-- Estudo e compreensão de algoritmos
-- Aprimoramento da lógica de programação
-- Desenvolvimento prático durante as aulas
+- Estudo e compreensão de algoritmos;
+- Aprimoramento da lógica de programação;
+- Desenvolvimento prático durante as aulas.
 
 ---
 
@@ -22,9 +22,9 @@ Neste repositório, você encontra uma coleção de **algoritmos** e **exercíci
 
 ### Requisitos
 
-- **GCC** (para compilar os arquivos C)
-- **Sistema operacional** de sua escolha (para executar no terminal)
-- **Git** (opcional, para clonar o repositório)
+- **GCC** (para compilar os arquivos C);
+- **Sistema operacional** de sua escolha (para executar no terminal);
+- **Git** (opcional, para clonar o repositório).
 
 ### Passo a passo
 
@@ -74,4 +74,4 @@ Estudante de Engenharia de Computação
 
 ---
 
-> É isso, espero que gostem do meu trabalho produzido até aqui!
+> É isso, espero que gostem do meu trabalho produzido até aqui! :)
