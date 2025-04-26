@@ -1,6 +1,6 @@
-# ENGENHARIA DE COMPUTAÇÃO - ALGORITMOS II - 2025
+# ENGENHARIA DE COMPUTAÇÃO - ALGORITMOS II / 2025
 
-![Capa do Projeto](https://placehold.co/1000x200?text=Algoritmos+II+em+C&font=roboto)
+![Algoritmos 2](algoritmos2.png)
 
 ## SOBRE O REPOSITÓRIO
 
@@ -10,7 +10,7 @@ Projeto desenvolvido ao longo de todo o **2º semestre** do curso de **Engenhari
 
 ## FUNCIONALIDADE
 
-Neste repositório, você encontra uma coleção de **algoritmos** e **exercícios de programação** desenvolvidos em **linguagem C**, com foco em:
+Neste repositório, você encontra uma coleção de **algoritmos** e **exercícios de programação** desenvolvidos na **linguagem C**, com foco em:
 
 - Estudo e compreensão de algoritmos
 - Aprimoramento da lógica de programação
@@ -23,7 +23,7 @@ Neste repositório, você encontra uma coleção de **algoritmos** e **exercíci
 ### Requisitos
 
 - **GCC** (para compilar os arquivos C)
-- **Sistema operacional com terminal** (Linux, Windows com WSL, etc)
+- **Sistema operacional** de sua escolha (para executar no terminal)
 - **Git** (opcional, para clonar o repositório)
 
 ### Passo a passo
@@ -50,15 +50,15 @@ gcc nome_do_arquivo.c -o nome_do_programa
 gcc nome_do_arquivo.c -o nome_do_programa -lm
 ```
 
-> Isso é necessário para os códigos da pasta `lista-funcoes`.
+> Isso é necessário para todos os códigos da pasta `lista-funcoes`.
 
 ---
 
 ## OBSERVAÇÕES
 
-- **Ambiente de desenvolvimento**: Ubuntu (Editor de Texto) e Visual Studio Code  
-- **Compiladores utilizados**: GCC (local) e [OnlineGDB](https://www.onlinegdb.com)  
-- **Sistema operacional**: Linux Ubuntu 24.04.2 LTS  
+- **Ambiente de desenvolvimento**: Ubuntu (Editor de Texto) e Visual Studio Code
+- **Compiladores utilizados**: GCC (local) e [OnlineGDB](https://www.onlinegdb.com)
+- **Sistema operacional**: Linux Ubuntu 24.04.2 LTS
 - **Versão do GCC**: 13.3.0
 
 ---
@@ -68,9 +68,9 @@ gcc nome_do_arquivo.c -o nome_do_programa -lm
 **Isadora de Souza Martins**  
 Estudante de Engenharia de Computação  
 
-- GitHub: [isamartins-engcomput](https://github.com/isamartins-engcomput)  
-- E-mail pessoal: isadoramartins1906@gmail.com  
-- E-mail institucional: isadora.martins2@estudante.ifms.edu.br  
+- GitHub: [isamartins-engcomput](https://github.com/isamartins-engcomput)
+- E-mail pessoal: isadoramartins1906@gmail.com
+- E-mail institucional: isadora.martins2@estudante.ifms.edu.br
 
 ---
 
