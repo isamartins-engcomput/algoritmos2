@@ -1,18 +1,18 @@
 // BIBLIOTECA DE FUNÇÕES DA LISTA DE ALGORITMOS II
 
-// EXERCÍCIO 1
+// EXERCICIO 1
 void printar1 ()
 {
   printf ("\n\nOI\n\n");
 }
 
-// EXERCÍCIO 2
+// EXERCICIO 2
 void printar2 (char texto2 [100])
 {
   printf ("\n%s\n\n",texto2);
 }
 
-// EXERCÍCIO 3
+// EXERCICIO 3
 char string[5] = "OK";
 
 char printar3 (char texto3 [100])
@@ -21,7 +21,7 @@ char printar3 (char texto3 [100])
   return printf ("\nOk\n\n");
 }
 
-// EXERCÍCIO 4
+// EXERCICIO 4
 void baskara (float a, float b, float c)
 {
   float delta, raiz1, raiz2;
@@ -45,7 +45,7 @@ void baskara (float a, float b, float c)
   }
 }
 
-// EXERCÍCIO 5
+// EXERCICIO 5
 int temporizar5 (int segundos)
 { 
   int horas, minutos, resto;
@@ -58,13 +58,13 @@ int temporizar5 (int segundos)
   return printf("\nTempo equivalente: %d horas, %d minutos e %d segundos.\n\n", horas, minutos, segundos);
 }
 
-// EXERCÍCIO 6
+// EXERCICIO 6
 int temporizar6 (int dia, int mes, int ano, int dia_atual, int mes_atual, int ano_atual)
 { 
   return ((ano_atual - ano) * 365) + ((mes_atual - mes) * 30) + (dia_atual - dia);
 }
 
-// EXERCÍCIO 7
+// EXERCICIO 7
 int verificar7 (int valor)
 {
   int soma = 0;
@@ -87,7 +87,7 @@ int verificar7 (int valor)
   }
 }
 
-// EXERCÍCIO 8
+// EXERCICIO 8
 void categorizar (int idade)
 {
   if (idade >= 5 && idade <= 7)
@@ -116,7 +116,7 @@ void categorizar (int idade)
   }
 }
 
-// EXERCÍCIO 9
+// EXERCICIO 9
 int verificar9 (int valor)
 {
   if (valor > 0)
@@ -130,7 +130,7 @@ int verificar9 (int valor)
 }
 
 
-// EXERCÍCIO 10
+// EXERCICIO 10
 int verificar10 (int valor)
 {
   if (valor % 2 == 0)
@@ -143,7 +143,7 @@ int verificar10 (int valor)
   }
 }
 
-// EXERCÍCIO 11
+// EXERCICIO 11
 void conceituar (int media)
 {
   if (media >= 0 && media < 5)
@@ -164,7 +164,7 @@ void conceituar (int media)
   }
 }
 
-// EXERCÍCIO 12
+// EXERCICIO 12
 void ordenar (int a, int b, int c)
 {
   int troca;
@@ -191,7 +191,7 @@ void ordenar (int a, int b, int c)
   printf ("\nValores em ordem crescente: %d %d %d\n\n",a,b,c);
 }
 
-// EXERCÍCIO 13
+// EXERCICIO 13
 void verificar13 (int lado1, int lado2, int lado3)
 {
   if ((((abs (lado2 - lado3) < lado1) && (lado2 + lado3 > lado1)) && ((abs (lado1 - lado3) < lado2) && (lado1 + lado3 > lado2))) && (((abs (lado1 - lado2) < lado3) && (lado1 + lado2 > lado3))))
@@ -215,7 +215,7 @@ void verificar13 (int lado1, int lado2, int lado3)
   }
 }
 
-// EXERCÍCIO 14
+// EXERCICIO 14
 float calcular_media (int valor)
 {
   int soma = 0, quantidade = 0;
@@ -237,7 +237,7 @@ float calcular_media (int valor)
   return soma / quantidade;
 }
 
-// EXERCÍCIO 15
+// EXERCICIO 15
 int elevar (int base, int expoente)
 { 
   int resultado = 1;
