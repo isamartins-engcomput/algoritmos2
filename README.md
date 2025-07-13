@@ -1,4 +1,4 @@
-# ENGENHARIA DE COMPUTAÇÃO - ALGORITMOS II / 2025
+# 💾 ENGENHARIA DE COMPUTAÇÃO - ALGORITMOS 2 / 2025
 
 ![Algoritmos 2](algoritmos2.png)
 
