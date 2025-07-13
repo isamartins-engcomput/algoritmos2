@@ -1,0 +1,37 @@
+programas antigos - memória volátil
+
+PROVA: ponteiro + função + arquivo
+*pode ser que que seja um arquivo .csv
+
+FILE *arquivo
+para criar "x"
+
+"w" - write
+"r" - read
+"a" - add
+
+url = "teste.txt"; -> vai criar uma pasta onde está salvo o código na main
+arquivo = fopen (url,"w");
+...
+fclose (nome_arquivo);
+
+caminho absoluto - todo o caminho para abrir o arquivo
+caminho relativo - qual o complemento do arquivo para chegar onde quero
+
+#include <stdio.h>
+int main ()
+{
+  FILE *arquivo;
+
+  char *url = "teste.txt"; // ou url[]
+
+  arquivo = fopen(url,"w");
+
+  if (fopen != NULL)
+  {
+    fprintf (arquivo,"teste do teste.txt");
+    fclose (arquivo);
+  }
+
+return 0;
+}

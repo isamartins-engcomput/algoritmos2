@@ -1,0 +1,81 @@
+O que é?
+
+- Ponteiro é um tipo de dado que armazena o endereço de memória de uma variável, estrutura, função, entre outros;
+- Ou seja, um ponteiro guarda a referência daquele elemento;
+- Pode-se dizer que o ponteiro "aponta" para onde está a variável que ele recebeu o endereço.
+
+- Toda vez que se cria uma variável, é reservado um local na memória para ela;
+- Esse endereço é associado ao nome que é atribuído a variável;
+- O computador precisa da posição das variáveis na memória, já nós trabalhamos com o nome da variável.
+
+Uma variável tem valor E endereço de memória:
+int a = 5;
+int *pa;
+pa = &a;
+tem que ser do mesmo tipo da variável a -> int *pa; -> nome ponteiro que aponta pra a;
+pa = &a; -> ponteiro recebendo o endereço da variável a, onde & retorna o endereço de memória da variável em hexadecimal.
+
+#include <stdio.h>
+int main ()
+{
+  int a = 5;
+  int *pa;
+
+  pa = &a;
+
+  printf ("\nEndereco do ponteiro: %p",&pa);
+  printf ("\nEndereco da variavel que foi atribuida ao ponteiro: %p",pa);
+  printf ("\nValor da variavel sendo impresso pelo ponteiro: %d",*pa);
+  printf ("\nEndereco da variavel: %p\n",&pa);
+
+  int *p = pa;
+
+  printf ("\nEndereco do ponteiro: %p",&p);
+  printf ("\nEndereco da variavel que foi atribuida ao ponteiro: %p",pa);
+  printf ("\nValor da variavel sendo impresso pelo ponteiro: %d",*p);
+  printf ("\nEndereco da variavel: %p\n",&pa);
+
+  int b = 15;
+
+  *pa = b;
+  pa = &b;
+
+  printf ("\nEndereco do ponteiro: %p",&pa);
+  printf ("\nEndereco da variavel que foi atribuida ao ponteiro: %p",pa);
+  printf ("\nValor da variavel sendo impresso pelo ponteiro: %d",*pa);
+  printf ("\nEndereco da variavel: %p\n\n",&pa);
+
+return 0;
+}
+
+- É possível criar um ponteiro genérico, que receba endereço de qualquer tipo de variável;
+- Tenha atenção ao efetuar operações aritméticas com esse tipo de ponteiro, já que não possui tipo definido;
+- Caso queira atribuir um ponteiro genérico a um ponteiro de tipo específico, é  necessário efetuar um typecast para o tipo desejado (o mesmo ocorre quando for acessar o seu conteúdo).
+- void *p; char *ca; ca = (char *)p;
+
+- Só é possível realizar duas operações nos endereços: adição e subtração.
+
+  int a = 5;
+  int *pa;
+  pa = &a;
+  pa++;
+  pa = pa + 4;
+  pa--;
+  pa = pa - 2;
+
+* syzeoff - retorna quanto bytes tem um tamanho inteiro.
+
+- Os ponteiros são muito úteis para trabalhar com arrays (vetores);
+- Não é possível incrementar ou decrementar números quebrados (pois é a posição na memória), sempre deve ser um valor inteiro;
+- Ao testar, vão notar que o ponteiro incrementou 4 posições na memória, exemplo: se estava 100, foi para 104. O motivo é que o valor do tipo inteiro reserva 4 bytes para armazenar a variável.
+
+Operações relacionais:
+
+- É possível verificar se os ponteiros são iguais == ou diferentes !=;
+- Além de poder comparar se está em posições maiores ou menores na memória > ou <;
+- Assim como nas operações aritméticas, caso utilize o * exemplo: *pa, estará  comparando o conteúdo presente no endereço que ponteiro está apontando.
+
+Parâmetros com ponteiros:
+
+- Uma função pode receber parâmetros por valor ou por referência com a utilização dos ponteiros, ou seja a variável da função irá receber a referência de memória;
+- Permite que as alterações realizadas na função altere o valor de variáveis que estão fora da função.

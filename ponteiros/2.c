@@ -1,22 +1,36 @@
-/* 2 – Considerando que string é uma sequência de caracteres na memória, sua
-implementação é similar a de um vetor, dessa forma implemente um exemplo utilizando
-ponteiros para percorrer uma string. */
+/* 2)  Escreva um programa que contenha duas variáveis  inteiras. Leia  essas variáveis 
+do teclado. Em seguida, compare seus endereços e exiba o conteúdo do maior endereço. */
 
 #include <stdio.h>
 
 int main()
 {
-  char texto[] = "Hello, world!";
-  char *p = texto; // ponteiro para o início da string
+  int a;
+  int b;
 
-  printf("\nPercorrendo a string \"Hello, world!\" com ponteiros:\n\n");
+  int *pa;
+  int *pb;
 
-  while (*p != '\0') // enquanto não chegar no fim da string
+  printf("\nDigite um valor para a: ");
+  scanf("%d",&a);
+
+  printf("Digite um valor para b: ");
+  scanf("%d",&b);
+
+  pa = &a;
+  pb = &b;
+
+  printf("\nEndereço de a: %p",pa);
+  printf("\nEndereço de b: %p",pb);
+
+  if (pa > pb)
   {
-    printf("Caractere: %c Endereco: %p\n", *p, (void*)p); // imprime o caractere atual
-    p++; // vai para o próximo caractere
+    printf("\n\nMaior endereço: %p => Valor armazenado (a): %d\n\n",pa,*pa);
   }
-  printf("\n");
+  else
+  {
+    printf("\n\nMaior endereço: %p => Valor armazenado (b): %d\n\n",pb,*pb);
+  }
 
 return 0;
 }

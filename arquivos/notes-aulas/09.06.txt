@@ -1,0 +1,5 @@
+Protótipo - listar funções antes do código (para o compilador conhecer elas)
+tipo_função nome_função(tipo_parâmetros)
+Exemplo: void criarArquivo(void);
+
+- Função de limpar buffer
