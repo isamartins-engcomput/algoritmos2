@@ -1,0 +1,14 @@
+Por que as estruturas são úteis?
+
+- Struct permite grupar múltiplas variáveis (mesmo de tipos diferentes);
+- Organizar dados que são logicamente semelhantes (tipo data: dia/mês/ano);
+- Pode ser usado para retornar múltiplos valores de uma função.
+
+objeto ALUNO -> nome, matrícula e nota
+
+Sintaxe:
+struct nome_da_tag
+{
+  tipo_do_membro1 nome_membro1;
+  tipo_do_membro2 nome_membro2;
+}
