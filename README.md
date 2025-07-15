@@ -8,7 +8,7 @@ Este é o universo de algoritmos em C que criei durante todo o **2º semestre** 
 
 ---
 
-## 💡 FUNCIONALIDADE
+## 💡 OBJETIVOS DO REPOSITÓRIO
 
 Neste repositório, você encontra uma coleção de **algoritmos** e **exercícios de programação** desenvolvidos na **linguagem C**, com foco em:
 
@@ -18,15 +18,21 @@ Neste repositório, você encontra uma coleção de **algoritmos** e **exercíci
 
 ---
 
+## 📂 ESTRUTURA DO REPOSITÓRIO
+
+As listas de exercícios avaliativas estão organizadas em pastas nomeadas no formato: `Lista_NOME-da-LISTA`.
+
+---
+
 ## ⚙️ COMO RODAR OS CÓDIGOS? (COMPILAÇÃO NO TERMINAL)
 
-### 🧰 Requisitos
+### Requisitos
 
-- 🧩 **GCC** (para compilar os arquivos C);
-- 🖥️ **Sistema operacional** de sua escolha (para executar no terminal);
-- 🔄 **Git** (opcional, para clonar o repositório).
+- **GCC** (para compilar os arquivos C);
+- **Sistema operacional** de sua escolha (para executar no terminal);
+- **Git** (opcional, para clonar o repositório).
 
-### 📟 Passo a passo
+### Passo a passo
 
 ```bash
 # Clone o repositório
@@ -50,15 +56,15 @@ gcc nome_do_arquivo.c -o nome_do_programa
 gcc nome_do_arquivo.c -o nome_do_programa -lm
 ```
 
-> ⚠️ Necessário para os códigos da pasta `Lista_FUNCOES e Lista_STRUCT`.
+> ⚠️ Necessário para os códigos da pasta `Lista_FUNCOES` e `Lista_STRUCT`.
 
 ---
 
 ## 🛠️ AMBIENTE DE DESENVOLVIMENTO
 
-- 📝 **Editores**: Editor de Texto do Ubuntu e Visual Studio Code;
-- 🧪 **Compiladores utilizados**: GCC versão 13.3.0 (local) e [OnlineGDB](https://www.onlinegdb.com);
-- 🐧 **Sistema operacional**: Linux Ubuntu 24.04.2 LTS.
+- **Editores**: Editor de Texto do Ubuntu e Visual Studio Code;
+- **Compiladores**: GCC versão 13.3.0 (local) e [OnlineGDB](https://www.onlinegdb.com);
+- **Sistema operacional**: Linux Ubuntu 24.04.2 LTS.
 
 ---
 
@@ -67,10 +73,10 @@ gcc nome_do_arquivo.c -o nome_do_programa -lm
 **Isadora de Souza Martins**  
 Estudante de Engenharia de Computação  
 
-- 😸 GitHub: [isamartins-engcomput](https://github.com/isamartins-engcomput)
-- 📧 E-mail pessoal: isadoramartins1906@gmail.com
-- 🎒 E-mail institucional: isadora.martins2@estudante.ifms.edu.br
+- GitHub: [isamartins-engcomput](https://github.com/isamartins-engcomput)
+- E-mail pessoal: isadoramartins1906@gmail.com
+- E-mail institucional: isadora.martins2@estudante.ifms.edu.br
 
 ---
 
-> ✨ É isso, espero que gostem do meu trabalho produzido até aqui! :)
+> ✨ Obrigada por conferir meu trabalho! Este repositório representa minha evolução na programação em C, então fique à vontade para explorar e dar feedbacks! :)
