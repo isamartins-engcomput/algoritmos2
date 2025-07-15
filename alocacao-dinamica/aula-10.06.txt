@@ -1,0 +1,6 @@
+Pra que serve a alocação dinâmica?
+
+- Reservar/liberar memória para dados durante a execução de um programa.
+- Na alocação estática, o tamanho é fixo. Já na dinâmica, o tamanho diminui ou aumenta de acordo com a necessidade.
+
+malloc (memory allocation)
