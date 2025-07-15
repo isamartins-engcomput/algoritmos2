@@ -1,4 +1,4 @@
-# ENGENHARIA DE COMPUTAÇÃO - ALGORITMOS II / 2025
+# 💾 ENGENHARIA DE COMPUTAÇÃO - ALGORITMOS 2 - 2025
 
 ![Algoritmos 2](algoritmos2.png)
 
@@ -20,13 +20,13 @@ Neste repositório, você encontra uma coleção de **algoritmos** e **exercíci
 
 ## ⚙️ COMO RODAR OS CÓDIGOS? (COMPILAÇÃO NO TERMINAL)
 
-### 🧰 Requisitos
+### Requisitos
 
-- 🧩 **GCC** (para compilar os arquivos C);
-- 🖥️ **Sistema operacional** de sua escolha (para executar no terminal);
-- 🔄 **Git** (opcional, para clonar o repositório).
+- **GCC** (para compilar os arquivos C);
+- **Sistema operacional** de sua escolha (para executar no terminal);
+- **Git** (opcional, para clonar o repositório).
 
-### 📟 Passo a passo
+### Passo a passo
 
 ```bash
 # Clone o repositório
@@ -56,9 +56,9 @@ gcc nome_do_arquivo.c -o nome_do_programa -lm
 
 ## 🛠️ AMBIENTE DE DESENVOLVIMENTO
 
-- 📝 **Editores**: Editor de Texto do Ubuntu e Visual Studio Code;
-- 🧪 **Compiladores utilizados**: GCC versão 13.3.0 (local) e [OnlineGDB](https://www.onlinegdb.com);
-- 🐧 **Sistema operacional**: Linux Ubuntu 24.04.2 LTS.
+- **Editores**: Editor de Texto do Ubuntu e Visual Studio Code;
+- **Compiladores utilizados**: GCC versão 13.3.0 (local) e [OnlineGDB](https://www.onlinegdb.com);
+- **Sistema operacional**: Linux Ubuntu 24.04.2 LTS.
 
 ---
 
@@ -67,9 +67,9 @@ gcc nome_do_arquivo.c -o nome_do_programa -lm
 **Isadora de Souza Martins**  
 Estudante de Engenharia de Computação  
 
-- 😸 GitHub: [isamartins-engcomput](https://github.com/isamartins-engcomput)
-- 📧 E-mail pessoal: isadoramartins1906@gmail.com
-- 🎒 E-mail institucional: isadora.martins2@estudante.ifms.edu.br
+- GitHub: [isamartins-engcomput](https://github.com/isamartins-engcomput)
+- E-mail pessoal: isadoramartins1906@gmail.com
+- E-mail institucional: isadora.martins2@estudante.ifms.edu.br
 
 ---
 

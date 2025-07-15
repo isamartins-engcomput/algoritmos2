@@ -1,0 +1,1 @@
+As listas de exercícios a serem avaliadas como a terceira nota da disciplina estão nomeadas da seguinte maneira: Lista_NOME-da-LISTA e você as encontra logo no comecinho do meu repositório de Algoritmos 2, onde eu salvei todos os códigos desenvolvido por mim ao longo deste semestre.
