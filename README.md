@@ -36,7 +36,7 @@ As listas de exercícios avaliativas estão organizadas em pastas nomeadas no fo
 
 ```bash
 # Clone o repositório
-git clone https://github.com/seu_usuario/algoritmos2.git
+git clone https://github.com/isamartins-engcomput/algoritmos2.git
 cd algoritmos2
 ```
 
